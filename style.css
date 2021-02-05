@@ -1,0 +1,178 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #bfbfbf;
+    background: aliceblue;
+    font-family: 'Futura-Medium', 'Futura', 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: white;
+    text-decoration: underline;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+#global {
+    min-height: 100%; 
+    background: slategrey;
+    text-align: justify;
+    padding: 5px 20px;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+#contenu {
+    margin-bottom : 30px;
+}
+
+#titreBlog, #piedBlog {
+    text-align: center;
+    color: white;
+}
+
+header p {
+    font-size: 20px;
+    color: navajowhite;
+    width: 52%;
+    padding-top: 15px;
+}
+
+.formulaireConnexion {
+    text-align: center;
+    background-color: slategrey;
+}
+
+h2 {
+    color: navajowhite;
+    padding-bottom: 30px; 
+    padding-top: 30px;
+}
+
+.formulaireConnexion p {
+    padding-bottom: 50px; 
+    padding-top: 50px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1366px) /* iPad Pro */ 
+{
+    #top {
+        filter: drop-shadow(2px 4px 6px black);
+    }
+
+    #contenu p {
+        filter: drop-shadow(2px 4px 6px black);
+    }
+
+    #alaska {
+        display: none;
+    }
+
+    header p {
+        width: 100%;
+        font-size: 33px;
+    }
+
+    h1 {
+        font-size: 31px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    a {
+        font-size: 25px;
+    }
+
+    td {
+        font-size: 20px;
+    }
+
+    #pseudo {
+        font-size: 30px;
+    }
+
+    #password {
+        font-size: 30px;
+    }
+
+    #submit {
+        font-size: 28px;
+    }
+
+    .formulaireConnexion {
+        height: 100%;
+    }
+
+    #piedBlog {
+        padding-top: 25px;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 850px) /* iPhone X */ 
+{
+
+    #top {
+        filter: drop-shadow(2px 4px 6px black);
+    }
+
+    header p {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    #alaska {
+        display: none;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    #contenu p {
+        filter: drop-shadow(2px 4px 6px black);
+    }
+
+    .formulaireConnexion {
+        height: 100%;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    #pseudo {
+        font-size: 20px;
+    }
+
+    #password {
+        font-size: 20px;
+    }
+
+    #submit {
+        font-size: 18px;
+    }
+
+    #piedBlog {
+        padding-top: 15px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+
+    td {
+        font-size: 16px;
+    }
+}
